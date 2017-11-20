@@ -1,0 +1,51 @@
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    height: 100%;
+    width: 100%;
+}
+
+.main-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+}
+
+.el-main {
+    padding: 0;
+}
+
+.around-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.padded_strong {
+    padding: 25px;
+}

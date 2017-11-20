@@ -1,0 +1,14 @@
+/* theme color */
+$--color-primary: #BA68C8;
+$--color-secondary: #FAFAFA;
+
+/* icon font path, required */
+$--font-path: '../node_modules/element-ui/lib/theme-chalk/fonts';
+
+
+
+@import "../node_modules/element-ui/packages/theme-chalk/src/index";
+
+@import "../node_modules/bulma/sass/utilities/_all";
+@import "../node_modules/bulma/bulma";
+@import "../node_modules/buefy/src/scss/buefy";
