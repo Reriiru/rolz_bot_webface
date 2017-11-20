@@ -1,11 +1,6 @@
 <template>
-  <div v-bar="{
-      preventParentScroll: true,
-      scrollThrottle: 30,
-  }">
-    <div id="app">
-      <router-view/>
-    </div>
+  <div id="app">
+    <router-view/>
   </div>
 </template>
 
